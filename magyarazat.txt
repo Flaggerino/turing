@@ -1,0 +1,30 @@
+-cserebere.c
+A-nak és b-nek megadunk 2 egész értékû változót, majd kiiratjuk az a és b változókat eredeti alakjukban. 
+Ezek után a két változót összeadjuk, és az összegbõl kivonjuk az eredeti változókat, majd megint kiiratjuk a változókat, de mostmár felcserélt állapotban.
+
+-vegtelen_0.c
+Egy szálat futtatunk 0%-on, ezt úgy érjük el, hogy a szálat a sleep paranccsal "elaltatjuk", azaz leállítjuk.
+
+-vegtelen_100.c
+Egy szálat futtatunk 100%-on, a while a zátójelben lévõ egyes miatt mindig igaz lesz, ezért folyamatosan futni fog.
+
+-vegtelen_a.c
+Az open MP segítségével az összes szálra futtatni párhuzamosan, ugyan azt az elvet, amit az egy szál 100%-on történõ futtatásakor használtunk. 
+
+-szohossz.cpp
+A feladat megoldásához a bitshift operatort használtam, mely mûködése binárisan számolja meg az adott szó értékét. Ameddig a bináris alakban az anem egyezik meg 0-val addig, foylamatosan lépteti a bitshift operator balra, majd ezután hozzáad egyet n értékéhez.
+Ezek után a program végén az n értékét kiiratjuk, mely az adott szó hossza lesz.
+
+-pattog.c
+A curses headerrel kezeljük az ablakot melyben pattog a labdánk. Az x és y alap éártékének 0-t állítunk be, majd ezeket az x- és ynov paranccsal nüveljük az értékét. A végtelen ciklusban a getmaxyx meghatározza a az ablak maximum x és y értékeit, míg az mvprint kiiratja a labdát.
+A refresh parancs frissíti az ablakot, a usleep késlelteti, a labda mozgását. Az ifek ellentétes irányba fordítják a labda útvonalát, ha eléri a labda a max értéket. 
+
+-ifnelkulipattog.c
+
+
+-pagerank.c
+Megadunk 2 függvényt a void típusban és 1 értéket a double változótípussal. Az adott vektor i-edik elemét írja ki a kiir függvény, a tavolsag nevû változó felfogható a matematikában használt 2 pont távolságának.
+A pagerank függyvényben megadunk 2 darab 1 dimenziós és 1 darab 2 dimenziós mátrixot(tömböt). A PR a végeredméyn oszlopvektora, a PRv mátrix-szal pedig szorzok. A PR[i]-t egyenlõvé tesszük a PRv és a T mátrix elemeinek szorzatával, majd hozzáadjuk a PR[i]-t. Minden PR[i] kiszámítás elõtt az elõzõ for ciklus ezt az értéket nullára állítja.
+Ezután átpakolom a PR-bõl a PRv-be, majd a kiir függvény a PR-bõl kiírja a benne lévõ 4 PageRank értéket. a main (void) függvényben kiszámolja L-re L1-re és L2-re a pagerank értéket.
+
+Tutor: Rémiás Dávid(mindegyik feladatban és magyarázatban) 
