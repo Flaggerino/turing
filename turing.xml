@@ -16,7 +16,7 @@
         </para>
         <para>
             Megoldás forrása:      
-		<programlisting><![
+		<programlisting><!CDATA[
 int main(){
 while(1) {
 
@@ -128,7 +128,7 @@ false]]></screen>
 	}
 
 }]]></programlisting>            
-        <programlisting><![CDATA[]]></programlisting>            
+                   
         <para>
             Mit for kiírni erre a <computeroutput>T1000(T1000)</computeroutput> futtatásra?
                                 
@@ -205,7 +205,7 @@ Ezek után a két változót összeadjuk, és az összegből kivonjuk az eredeti
         </para>
         <para>
             Megoldás forrása:  
-		<programlisting><![
+		<programlisting><!CDATA[
             #include <stdio.h>
 #include <curses.h>
 #include <unistd.h>
@@ -290,7 +290,7 @@ A refresh parancs frissíti az ablakot, a usleep késlelteti, a labda mozgását
         </para>
         <para>
             Megoldás forrása: 
-		<programlisting><![
+		<programlisting><!CDATA[
             #include <stdio.h>
 #include <math.h>
 
